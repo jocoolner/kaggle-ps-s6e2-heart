@@ -1,17 +1,16 @@
-# Python
+# Python / virtualenv
+.venv/
 __pycache__/
 *.pyc
-.venv/
+
+# Jupyter
 .ipynb_checkpoints/
 
-# OS/editor
-.DS_Store
-.vscode/
-
-# Data (keep raw Kaggle files OUT of git)
+# Data (DO NOT COMMIT Kaggle files)
 data/
 !data/.gitkeep
+!data/raw/.gitkeep
 
-# Reports/figures (optional)
-# If you want to keep EDA summary but not images, use:
-# reports/figures/
+# OS / editor
+.DS_Store
+.vscode/
