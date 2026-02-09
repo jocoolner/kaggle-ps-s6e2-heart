@@ -1,0 +1,39 @@
+=== Kaggle PS S6E2 — Sanity Check Report ===
+Train shape: (630000, 15)
+Test  shape: (270000, 14)
+Sample submission shape: (270000, 2)
+
+Detected id_col: id
+Detected target_col: Heart Disease
+
+Train columns:
+id, Age, Sex, Chest pain type, BP, Cholesterol, FBS over 120, EKG results, Max HR, Exercise angina, ST depression, Slope of ST, Number of vessels fluro, Thallium, Heart Disease
+
+Dtypes (train):
+id                           int64
+Age                          int64
+Sex                          int64
+Chest pain type              int64
+BP                           int64
+Cholesterol                  int64
+FBS over 120                 int64
+EKG results                  int64
+Max HR                       int64
+Exercise angina              int64
+ST depression              float64
+Slope of ST                  int64
+Number of vessels fluro      int64
+Thallium                     int64
+Heart Disease                  str
+
+Target distribution (counts):
+Heart Disease
+Absence     347546
+Presence    282454
+
+Target distribution (percent):
+Heart Disease
+Absence     55.166
+Presence    44.834
+
+Duplicated IDs in train: 0
