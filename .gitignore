@@ -1,16 +1,32 @@
-# Python / virtualenv
+# --------------------
+# Data (never commit)
+# --------------------
+data/raw/
+data/**/raw/
+
+# --------------------
+# Reports / outputs (generated)
+# --------------------
+reports/sub_*.csv
+reports/*.npy
+reports/missing_*.csv
+reports/data_profile.txt
+reports/*.txt
+
+# If you store plots locally
+reports/figures/
+
+# --------------------
+# CatBoost artifacts
+# --------------------
+catboost_info/
+notebooks/catboost_info/
+
+# --------------------
+# Python env / caches
+# --------------------
 .venv/
 __pycache__/
-*.pyc
-
-# Jupyter
 .ipynb_checkpoints/
-
-# Data (DO NOT COMMIT Kaggle files)
-data/
-!data/.gitkeep
-!data/raw/.gitkeep
-
-# OS / editor
+*.pyc
 .DS_Store
-.vscode/
